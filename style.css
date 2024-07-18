@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4E4958;
+}
+
+body{
+    background-color: #BFD7E4;
+}
+
+header{
+    height: 465px;
+    width: 100%;
+    background-color: #293241;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1{
+    padding-top: 107px;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400; 
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+header p{
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 46px;
+}
+
+header img{
+    width: 225x;
+    height: 100px;
+}
+
+#baseboard{
+    width: 750px;
+    height: 133px;
+    background-color: #F67669;
+    border-radius: 20px 20px 0px 0px;
+
+    margin: 32px auto -1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#baseboard p{
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+form{
+    width: 750px;
+    height: 1075px;
+
+    background-color: #FFFFFF;
+
+    border-radius: 0px 0px 20px 20px;
+
+    margin: 0px auto 392px;
+}
+
+fieldset{
+    width: 622px;
+    margin: auto;
+    padding-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    
+    border: none;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-name,
+.input-email input,
+.select-mentor,
+.input-feedback,
+.input-checkbox,
+.input-date,
+.input-time{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-email{
+    margin-top: 16px;
+}
+
+.input-email label span,
+.input-date label span{
+    font-size: 12px;
+    color: #C1BCCC;
+    margin-left: 10px;
+}
+
+.input-name input,
+.input-email input,
+.select-mentor select,
+.input-feedback textarea,
+.input-date input,
+.input-time input{
+    height: 56px;
+    
+    border: 1px solid #E6E6F0;
+    background-color: #FAFAFC;
+    border-radius: 8px;
+    
+    color: #6c6a71;
+
+    margin-top: 9px;
+
+    font-size: 16px;
+    line-height: 26px;  
+}
+.input-name input{
+    width: 280px;
+}
+
+.input-email input{
+    width: 622px;
+}
+
+legend{
+    text-transform: uppercase;
+    color: #253B51;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+   
+
+    width: 100%;
+
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 8px;
+}
+
+.select-mentor,
+.input-feedback,
+.input-date,
+.input-time,
+.input-checkbox{
+    margin-top: 32px;
+}
+
+.input-checkbox{
+    position: relative;
+}
+
+.input-checkbox label{
+    padding-top: 2px;
+    padding-left: 30px;
+}
+
+.input-checkbox input{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 24px;
+    height: 24px; 
+}
+
+.input-date input{
+    width: 300px;
+}
+
+.input-time input{
+    width: 140px;
+}
+
+#schedule{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#time{
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-feedback textarea{
+    height: 167px;
+    resize: none;
+}
+
+.button{
+    width: 622px;
+    height: 51px;
+    background-color: #F67669;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    color:#FFFFFF;
+    font-size: 20px;
+    margin: 64px 64px 28px 64px;
+    
+    cursor: pointer;
+}
